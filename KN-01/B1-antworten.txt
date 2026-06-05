@@ -1,0 +1,17 @@
+1. Warum konnte dieser Payload die Sicherheitsprüfung des Browsers umgehen, obwohl <script> blockiert wird?
+
+    Der Payload wird gar nicht auf <script> ausgeführt, sondern in onerror.
+
+    Offenbar gibt es bei dieser Seite immer einen error, also wird es immer ausgeführt.
+
+2. Was bedeutet es für die Sicherheit, dass der Payload auch im Browser des Verteidigers ausgeführt wird?
+
+    Die Sicherheit ist sehr schlecht.
+
+3. Welche OWASP Top 10 Kategorie (2025) beschreibt Stored XSS? Nennen Sie Nummer und Bezeichnung.
+
+    In 2017 war es A7:2017-Cross-Site Scripting (XSS), in 2025 ist es nicht drin.
+
+4. Was hätte die Applikation tun müssen, damit dieser Payload harmlos bleibt? (Stichwort: Output Encoding)
+
+    Keinen Fehler haben.
