@@ -1,0 +1,11 @@
+1. Was kann ein Angreifer tun, wenn er den Session-Cookie eines anderen Benutzers kennt?
+
+    Diesen Benutzer impersonieren
+
+2. Was bewirkt das HttpOnly-Flag bei einem Cookie und wie schützt es vor diesem Angriff?
+
+    Dass der Cookie nicht ausgegeben werden kann
+
+3. Warum ist es gefährlich, Session-Cookies im localStorage statt in einem HttpOnly-Cookie zu speichern?
+
+    Dann kann jeder es sehen, der Zugriff auf die Machine hat.

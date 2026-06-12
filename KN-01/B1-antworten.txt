@@ -14,4 +14,4 @@
 
 4. Was hätte die Applikation tun müssen, damit dieser Payload harmlos bleibt? (Stichwort: Output Encoding)
 
-    Keinen Fehler haben.
+    Keinen Fehler haben. Und den Output encoden, oder was auch immer.
