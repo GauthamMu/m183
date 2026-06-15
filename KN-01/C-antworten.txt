@@ -1,0 +1,11 @@
+1. Was ist der Hauptunterschied zwischen Stored XSS und Reflected XSS hinsichtlich Persistenz und Reichweite? (Antwort aus Schritt 3 ableiten)
+
+    Für Stored XSS braucht man Zugriff auf die ganze Seite, bei Reflected XSS braucht man eine einzige URL.
+
+2. Wie würde ein Angreifer in der Praxis vorgehen, um das Opfer dazu zu bringen, den manipulierten Link zu öffnen? (Social Engineering)
+
+    "Hey, click mal auf diesen YouTube-Link!" (ist eine redirect-URL)
+
+3. Welcher OWASP Proactive Control schützt am direktesten gegen XSS? Nennen Sie ihn mit Nummer und Titel. (Referenz: owasp.org/www-project-proactive-controls)
+
+    Als Benutzer nicht jeden Link anclicken. Oder als Seitenbetreiber Variablen abchecken.
