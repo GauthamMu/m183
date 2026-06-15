@@ -1,0 +1,11 @@
+1. Warum ist es gefährlich, sicherheitsrelevante Daten (wie Rollen oder Berechtigungen) im Client (Cookie/LocalStorage) zu speichern?
+
+    Weil man dann es Hijacken und zum Admin werden kann.
+
+2. Wo sollten Berechtigungsprüfungen stattfinden – im Client oder auf dem Server? Begründen Sie.
+
+    Auf dem Server. So kann kein Hacker in null komma nichts zum Admin werden.
+
+3. Welche OWASP Top 10 Kategorie (2025) beschreibt dieses Problem?
+
+    Weiss ned
