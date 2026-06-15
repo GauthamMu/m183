@@ -1,0 +1,22 @@
+1. Warum konnte der Angreifer den Cookie des Verteidigers erhalten, ohne je dessen Passwort zu kennen oder Zugriff auf dessen Browser zu haben?
+
+    Angreifer hatte den Session Cookie.
+
+2. Welche Rolle spielt der new Image().src-Trick – warum funktioniert diese Technik trotz Same-Origin-Policy?
+
+    Bilder dürfen oft von ausserhalb kommen. Glaub ich.
+
+3. Warum war der Serveo-Tunnel notwendig – was wäre passiert, wenn der Payload direkt http://<EC2-IP>:9000 verwendet hätte?
+
+    Sonst wäre es HTTP, da der Python-Server nur HTTP hergibt und Serveo convertiert es in HTTPS (S steht für secure)
+
+4. Nennen Sie mindestens zwei technische Massnahmen, mit denen die Webapplikation diesen Angriff verhindert hätte.
+
+    - Sessiondaten nicht in den Cookies speichern
+    - Oder vielleicht die lokale IP verschlüsselt an die Sessiondaten anhängen, 
+      damit wenn der Angreifer den Cookie blind rüberkopiert, dass es nicht mehr funktioniert, 
+      weil der Angreifer nicht die gleiche IP wie der Verteidiger hat?
+
+5. Was bewirkt das Secure-Flag bei einem Cookie, und in welcher Situation schützt es?
+
+    Verschlüsseln der Cookies?
