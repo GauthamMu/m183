@@ -1,0 +1,19 @@
+1. Was ist der zentrale Unterschied zwischen Reflected XSS und Stored XSS hinsichtlich Persistenz und Reichweite?
+
+    Reflected XSS macht erst was, wenn man eine spezifische URL eingibt. Stored XSS macht hingegen was, wenn man die Seite besucht.
+
+2. Was unterscheidet DOM-based XSS von Reflected XSS – warum ist DOM-based XSS für serverseitige Filter schwieriger zu erkennen?
+
+    Weil der DOM-basierte XSS den Server gar nicht erreicht.
+
+3. Was bedeutet Output Encoding und warum schützt es gegen XSS? Geben Sie ein konkretes Beispiel, wie <script> nach dem Encoding aussieht.
+
+    %3Cscript%3E
+
+4. Was ist der HTTP-Header Content-Security-Policy (CSP) und wie schränkt er XSS ein? (Recherchieren Sie falls nötig.)
+
+    Nö. Ich fange an zu streiken. (Ist ein Witz.)
+
+5. Welche OWASP Top 10 Kategorie (2021) beschreibt XSS? Nennen Sie Nummer und Bezeichnung.
+
+    A03: Injection
