@@ -1,0 +1,17 @@
+1. Zeichnen Sie auf, wie das SQL-Statement aus B1 vor und nach dem Einschleusen des Payloads aussieht. Erklären Sie, warum die Authentifizierung dadurch umgangen wird.
+
+    Vorher gab es nur eine Kondition.
+    
+    Jetzt wird eine weitere Kondition hinzugefügt, die immer Wahr ist.
+
+2. Wie funktionieren Prepared Statements (parameterisierte Abfragen) technisch? Warum kann SQL Injection damit nicht mehr funktionieren?
+
+    Weil dann eine Library darüf sorgt, glaub ich.
+
+3. Welche OWASP Top 10 Kategorie (2025) beschreibt SQL Injection? Nennen Sie Nummer und Bezeichnung.
+
+    A3: Injection.
+
+4. Nennen Sie neben SQL Injection zwei weitere Injection-Varianten (z.B. OS Command Injection, LDAP Injection) und beschreiben Sie kurz, was dabei injiziert wird und wo die Gefahr liegt.
+
+    Ich kenne keine weiteren Injection-Varianten.
