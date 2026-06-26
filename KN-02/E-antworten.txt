@@ -1,0 +1,15 @@
+1. Warum reicht es nicht, eine Ressource einfach «nicht zu verlinken», um sie zu schützen? (Stichwort: Security through Obscurity)
+
+    Ehrlich gesagt keine Ahnung
+
+2. Wie hätte die Applikation den IDOR-Angriff verhindern können? Beschreiben Sie die notwendige serverseitige Prüfung.
+
+    Hätte überprüfen sollen, ob URL mit Benutzer übereinstimmt.
+
+3. Was ist der Unterschied zwischen horizontaler und vertikaler Privilegienerweiterung? Welche Form zeigt dieses IDOR-Beispiel?
+
+    Eines von denen ist mehr Privilegien, das andere die gleichen Privilegien, aber über mehr Nutzer.
+
+4. Welche OWASP Top 10 Kategorie (2025) beschreibt Broken Access Control? Nennen Sie Nummer und Bezeichnung und erklären Sie, warum sie auf Platz 1 steht.
+
+    A01: Broken Access Control. Es ist so hoch, weil viele Entwickler es vergessen.

