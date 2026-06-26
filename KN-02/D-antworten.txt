@@ -1,0 +1,15 @@
+1. Warum schickt der Browser den Session-Cookie mit, wenn die Anfrage von csrf-attack.html (einer lokalen Datei) kommt – obwohl das Opfer diese Seite nie bewusst besucht hat?
+
+    Beim ersten Aufruf loggt sich der User ein. Beim zweiten Aufruf hat der Browser den Cookie, weil beim ersten Aufruf schon eingeloggt wurde.
+
+2. Was ist ein CSRF-Token und warum kann eine Angreifer-Seite ihn nicht einfach aus dem Formular lesen?
+
+    Man kann es aus dem Formular lesen, so habe ich es gemacht. Musste nur auf DevTools.
+
+3. Was bewirkt das SameSite=Strict-Flag bei einem Cookie und wie schützt es vor CSRF?
+
+    Es schützt nicht wenn der User sich bei der Phishing-Seite nochmal einloggt.
+
+4. Welche OWASP Top 10 Kategorie (2025) beschreibt CSRF am ehesten? Nennen Sie Nummer und Bezeichnung.
+
+    A5: Security Misconfiguration
