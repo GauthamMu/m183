@@ -1,0 +1,15 @@
+1. Warum ist es ein Sicherheitsproblem, wenn ein Server "alg":"none" akzeptiert?
+
+    Weil dann kommt ein erfahrener Angreifer einfach so Adminrechte über (ich aber nicht, ich check nicht wo der Token hinkommt)
+
+2. JWT-Payloads sind nur Base64url-kodiert, nicht verschlüsselt. Was bedeutet das für den Umgang mit sensiblen Daten im Token?
+
+    Wenn man es in jwt.io reinmacht, dann sind die Daten offen.
+
+3. Welche Massnahmen schützen gegen JWT-Angriffe? Nennen Sie mindestens drei (z.B. Algorithmus-Whitelist, kurze Ablaufzeiten, serverseitige Signaturprüfung).
+
+    Ich glaube, man kann sich schützen indem man einen Schlüssl required
+
+4. Welche OWASP Top 10 Kategorie (2021) beschreibt Broken Authentication? Nennen Sie Nummer und Bezeichnung.
+
+    A7: Identity & Auth Failure
