@@ -1,0 +1,9 @@
+1. Jeder kann sich mit einem beliebigen Passwort anmelden. (OWASP A07 – Identification and Authentication Failures)
+
+2. Rechte werden nur anhand des Benutzernamens vergeben. (OWASP A01 – Broken Access Control)
+
+3. Die Session-ID wird nie erneuert. Dadurch ist eine Session-Fixation möglich. (OWASP A07 – Identification and Authentication Failures)
+
+4. Angreifer können Aktionen im Namen des Benutzers ausführen. (OWASP A01 – Broken Access Control / fehlender CSRF-Schutz)
+
+5. Es fehlen Sicherheitsattribute wie HttpOnly, Secure und SameSite. (OWASP A05 – Security Misconfiguration)
