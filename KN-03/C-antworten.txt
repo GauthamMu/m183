@@ -1,0 +1,11 @@
+1. Was ist passiert? Konnte der zweite Browser auf die Session des ersten zugreifen?
+
+    Ja, der zweite Browser nahm sich die gleiche Session-ID wie der erste Browser.
+
+2. Warum ist das ein Sicherheitsproblem?
+
+    Wenn die Applikation mehr anzeigen würde als nur Benutzername und Rolle, dann ja, dann sind es sensible Daten.
+
+3. Welche eine Massnahme hätte diesen Angriff verhindert?
+
+    Wenn die Session-ID nicht in den Cookies wäre, glaube ich.
