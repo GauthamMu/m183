@@ -1,0 +1,3 @@
+- - 1. document.cookie funktioniert nicht mehr / Das Cookie wird nur bei HTTP/HTTPS-Anfragen an den Server übertragen. / XSS Schutz
+- - 2. Cookie nur bei Anfragen von derselben Website / CSRF Schutz
+- - 3. Er verwendet Salt, ist langsam berechenbar und benötigt zusätzlich Speicher, wodurch Brute-Force-Angriffe deutlich erschwert werden. / MD5 und SHA-1 sind schnelle Hashfunktionen und gelten für Passwortspeicherung als unsicher. Sie sind anfällig für Brute-Force-, Wörterbuch- und Rainbow-Table-Angriffe und sollten dafür nicht mehr verwendet werden.
