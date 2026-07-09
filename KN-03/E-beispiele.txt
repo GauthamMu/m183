@@ -1,0 +1,7 @@
+Wissen: Passwort, PIN 
+
+Besitz: Handy, Smartcard
+
+Inhärenz: Fingerabdruck, Retina
+
+Ort: Bekanntes Netzwerk, GPS

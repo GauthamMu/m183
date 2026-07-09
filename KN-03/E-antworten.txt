@@ -1,0 +1,11 @@
+1. Ist die Kombination «Passwort + PIN» echtes MFA? Begründen Sie.
+
+    Nein, sie sind beide Wissen.
+
+2. Ist die Kombination «Passwort + SMS-Code» echtes MFA? Begründen Sie.
+
+    Ja, Passwort weiss man, aber ein Handy besitzt man.
+
+3. AWS STS (Security Token Service) stellt temporäre Zugangsdaten aus. Welchem MFA-Prinzip ähnelt dieses Konzept am meisten, und warum? (Hinweis: Kapitel 2 Authentifizierung & Autorisierung → Temporäre Berechtigungen)
+
+    Besitz glaube ich
