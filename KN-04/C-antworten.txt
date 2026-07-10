@@ -1,0 +1,11 @@
+1. Was ist der Unterschied zwischen einem selbstsignierten Zertifikat und einem CA-signierten Zertifikat?
+
+    Die Person, die das Zertifikat signiert.
+
+2. Was enthält ein CSR (Certificate Signing Request) und wozu dient er?
+
+    Er dient dazu, ein Zertifikat zu signieren und enthält eine Anfrage, das Zertifikat zu signieren.
+
+3. Warum vertraut ein normaler Browser Ihrem selbst erstellten Zertifikat nicht, obwohl es technisch korrekt erstellt wurde?
+
+    Weil es nicht von einem bekannten Anbieter ist.
