@@ -1,0 +1,11 @@
+1. Wie viele Versuche und wie viele Sekunden hat der Angriff benötigt? Was würde passieren, wenn die Passwortliste statt 20 Einträgen 1 Million hätte (z.B. die bekannte rockyou.txt)?
+
+    Es hat 13 Passwörter versucht und dafür 0.03 Sekunden gebraucht. Wenn eine Million Passwörter hätte, dann würde es wahrscheinlich ein paar Minuten dauern.
+
+2. Welche zwei technischen Massnahmen hätten diesen Angriff verhindert oder massgeblich erschwert? (Hinweis: schauen Sie sich den Kommentar im PHP-Code an)
+
+    Ein Rate-Limit würde es verschweren.
+
+3. Warum ist das Passwort sunshine schwach – auch wenn es kein Wort wie password oder 123456 ist?
+
+    Es ist ein Wort aus einem Wörterbuch.
