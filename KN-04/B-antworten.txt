@@ -1,0 +1,11 @@
+1. Was ist ein Nonce und warum muss er für jede Verschlüsselung neu generiert werden?
+
+    Eine Zufallszahl, die ein Hacker wahrscheinlich nicht erraten kann.
+
+2. Was ist der Unterschied zwischen DES (56-Bit-Schlüssel) und AES-256 (256-Bit-Schlüssel) in Bezug auf Brute-Force-Resistenz?
+
+    AES ist sicherer, da es unbemerkt nicht manipulieren kann.
+
+3. Was demonstriert der Manipulations-Test am Ende des Skripts? Welchen Vorteil bietet GCM gegenüber einfachem AES-CBC?
+
+    GCM bemerkt Manipulationen.
