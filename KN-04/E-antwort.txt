@@ -1,0 +1,24 @@
+1. Was zeigt nmap über Port 80 und Port 443? Welche Information erhält ein Angreifer bereits durch einen Port-Scan, bevor er auch nur eine einzige Anfrage an die App gestellt hat?
+
+    Bei Port 80 sieht man den Host und die Applikation hinter der Webseite, bei 443 aber nichts von dem.
+
+2. Was genau ist im tcpdump-Output sichtbar? Markieren Sie die Zeile, die das Passwort im Klartext enthält.
+
+    Hat keine.
+
+3. Was müsste ein Angreifer in einem realen Netzwerk tun, um diesen Traffic mitzulesen? (Stichwort: ARP-Spoofing / Man-in-the-Middle)
+
+    Ein öffentliches WLAN betreiben.
+
+4. Was ist der Unterschied zwischen dem tcpdump-Output auf Port 80 und Port 443? Was sieht ein Angreifer beim HTTPS-Traffic?
+
+    Hat keinen Unterschied.
+
+5. Was passiert beim TLS-Handshake, bevor die eigentlichen Daten (Benutzername/Passwort) übertragen werden? (Stichwort: Hybride Verschlüsselung aus Aufgabe D)
+
+    Keine Ahnung.
+
+6. Sie sehen bei Port 443 noch immer die IP-Adressen von Client und Server im tcpdump-Output. Warum ist das so, obwohl die Verbindung verschlüsselt ist?
+
+    Weil man muss ja ETWAS lesen können, sonst kommt nichts dort an wo es soll.
+

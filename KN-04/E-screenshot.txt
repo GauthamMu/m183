@@ -1,3 +1,0 @@
-1. Was zeigt nmap über Port 80 und Port 443? Welche Information erhält ein Angreifer bereits durch einen Port-Scan, bevor er auch nur eine einzige Anfrage an die App gestellt hat?
-
-    Bei Port 80 sieht man den Host und die Applikation hinter der Webseite, bei 443 aber nichts von dem.
