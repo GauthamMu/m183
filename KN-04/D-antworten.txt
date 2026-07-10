@@ -1,0 +1,11 @@
+1. Welche Informationen zeigt der Browser im Zertifikat-Dialog? Was davon haben Sie selbst in Aufgabe C definiert?
+
+    Man sieht, wem das Zertifikat ausgestellt wurde und wer es ausgestellt hat.
+
+2. Warum erscheint trotz technisch korrektem Zertifikat eine Sicherheitswarnung?
+
+    Wahrscheinlich weil es kein Organizational Unit.
+
+3. Erklären Sie anhand dieses Setups, wie hybride Verschlüsselung bei HTTPS funktioniert (Schlüsselaustausch vs. Datenverschlüsselung).
+
+    Es gibt glaub ich einen TLS Tunnel, und so können Angreifer nichts mitbekommen.    
